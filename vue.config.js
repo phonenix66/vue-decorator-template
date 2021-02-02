@@ -79,11 +79,20 @@ module.exports = {
                 return args;
             });
         }
+    },
+    css: {
+        loaderOptions: {
+            less: {
+                modifyVars: {
+                    // less vars，customize ant design theme
 
-        /* config.module
-            .rule('html')
-            .test(/\.html$/)
-            .use('html-loader')
-            .loader('html-loader'); */
+                    // 'primary-color': '#F5222D',
+                    // 'link-color': '#F5222D',
+                    'border-radius-base': '2px'
+                },
+                // DO NOT REMOVE THIS LINE
+                javascriptEnabled: true
+            }
+        }
     }
 };

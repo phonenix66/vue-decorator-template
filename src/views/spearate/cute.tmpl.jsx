@@ -1,18 +1,23 @@
-import Vue from 'vue/dist/vue.js';
-import Component from 'vue-class-component';
+import Vue from 'vue';
+import { Component } from 'vue-property-decorator';
 
-import '@/views/spearate/cute.tmpl.less';
-@Component({
-    name: 'Cute'
-    // template: require('./cute.tmpl.html')
-})
-export default class extends Vue {
+@Component
+class Cute extends Vue {
     msg = 2345555;
+    created() {
+        console.log('create');
+    }
+    handle(data1, data2) {
+        console.log('handle', data1, data2);
+    }
     render() {
         return (
             <div class='cute-wrapper'>
-                <div>{this.msg}</div>
+                <a-button type='primary' onClick={this.handle.bind(this, 1, 2)}>
+                    {this.msg}
+                </a-button>
             </div>
         );
     }
 }
+export default Cute;
