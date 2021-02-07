@@ -70,7 +70,22 @@ module.exports = {
             .options({
                 name: 'assets/[name].[hash:8].[ext]'
             });
-
+        // set svg-sprite-loader
+        config.module
+            .rule('svg')
+            .exclude.add(resolve('src/icons'))
+            .end();
+        config.module
+            .rule('icons')
+            .test(/\.svg$/)
+            .include.add(resolve('src/icons'))
+            .end()
+            .use('svg-sprite-loader')
+            .loader('svg-sprite-loader')
+            .options({
+                symbolId: 'icon-[name]'
+            })
+            .end();
         // if prod is on
         // assets require on cdn
         if (IS_PROD) {

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="78px" height="78px" viewBox="0 0 78 78" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>扬尘噪音监控-选中</title>
+    <defs>
+        <circle id="path-1" cx="39" cy="39" r="30"></circle>
+        <filter x="-22.5%" y="-22.5%" width="145.0%" height="145.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="2.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.980392157   0 0 0 0 0.945098039   0 0 0 0 0.349019608  0 0 0 0.163953234 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="一张图-扬尘噪声监测" transform="translate(-1043.000000, -955.000000)">
+            <g id="编组-2备份-4" transform="translate(1040.000000, 955.000000)">
+                <g id="编组-14" transform="translate(3.000000, 0.000000)">
+                    <g id="椭圆形">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <circle stroke="#F4F98A" stroke-width="2" stroke-linejoin="square" fill-opacity="0.216949" fill="#FAF159" fill-rule="evenodd" cx="39" cy="39" r="29"></circle>
+                    </g>
+                    <path d="M22.4280134,23.9794922 C20.9995238,25.7283537 19.9631107,26.6622967 18.7148438,29.4538225 C15.86188,35.8339662 15.0271723,45.7928048 23.054548,54.664202 M39,61.5079365 C45.9097746,61.5079365 52.2676753,58.5642842 56.2551494,53.2539683 C57.9972526,50.9339235 59.6650189,47.9222264 60.4603175,45 M57.984127,27.4444444 C54.1760354,20.9072575 47.0295012,16.7142857 39,16.7142857" id="形状" stroke="#FAF159" stroke-width="6" fill-opacity="0.130326705" fill="#0D2859" stroke-linecap="square"></path>
+                    <g id="视频" transform="translate(27.714286, 27.000000)" fill="#FFFDD8" fill-rule="nonzero">
+                        <g id="噪音指数" transform="translate(0.285714, 0.000000)">
+                            <path d="M21.6986109,0.530421163 L23.4256129,2.25833984 L20.4006094,5.28334336 L23.4256129,8.30834688 L20.4006094,11.3333504 L23.4256129,14.3592706 L20.4006094,17.3842741 L23.4256129,20.4092776 L21.6976942,22.1371963 L16.944772,17.3824408 L19.9697756,14.3583539 L16.944772,11.3324337 L19.9697756,8.30743021 L16.944772,5.28242669 L21.6995276,0.529504495 L21.6986109,0.530421163 Z M13.7511017,1.23625532 C13.8372684,1.34075544 13.8886018,1.4755056 13.8895185,1.62217243 L13.8895185,21.0436117 L13.8895185,21.0437114 C13.8895185,21.3813889 13.6157777,21.6551288 13.2781011,21.6551288 C13.136262,21.6551288 12.9988351,21.6058146 12.8893567,21.5156323 L12.8902733,21.5165489 L6.42134913,16.2209595 L1.66667954,16.2219395 L1.66667948,16.2219395 C0.991831561,16.2219395 0.444761393,15.6748693 0.444761393,15.0000214 L0.444761393,7.66667954 C0.444761393,6.99201209 0.99201203,6.44476146 1.66667948,6.44476146 L6.41960168,6.44476146 L12.8903592,1.15008863 L12.8903592,1.15008863 C13.1493359,0.935768563 13.5330178,0.971969777 13.7473375,1.23094646 C13.7482934,1.23210149 13.749245,1.23326006 13.7501923,1.23442212 L13.751109,1.23533879 L13.7511017,1.23625532 Z" id="形状"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

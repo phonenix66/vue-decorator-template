@@ -98,16 +98,16 @@ const errorHandler = error => {
 };
 
 // request interceptor
-request.interceptors.request.use(config => {
+request.interceptors.request.use(request => {
     const token = storage.get(ACCESS_TOKEN);
     if (token) {
-        config.header['Access-Token'] = token;
+        request.header['Access-Token'] = token;
     }
-    return config;
+    return request;
 }, errorHandler);
 
 // response interceptor
-request.interceptors.request.use(response => {
+request.interceptors.response.use(response => {
     return response.data;
 }, errorHandler);
 /**

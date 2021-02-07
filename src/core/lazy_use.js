@@ -59,6 +59,8 @@ import PageLoading from '@/components/PageLoading';
 // import PermissionHelper from '@/core/permission/permission';
 // import './directives/action';
 import Map from '@/components/Map/index';
+import animate from 'animate.css';
+import * as echarts from 'echarts';
 Vue.use(ConfigProvider);
 Vue.use(Layout);
 Vue.use(Input);
@@ -104,7 +106,9 @@ Vue.use(Space);
 Vue.use(Tree)
     .use(TreeSelect)
     .use(Pagination);
+Vue.use(animate);
 
+Vue.prototype.$echarts = echarts;
 Vue.prototype.$confirm = Modal.confirm;
 Vue.prototype.$message = message;
 Vue.prototype.$notification = notification;

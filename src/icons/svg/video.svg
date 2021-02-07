@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="74px" height="74px" viewBox="0 0 74 74" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组 3</title>
+    <defs>
+        <circle id="path-1" cx="37" cy="37" r="28"></circle>
+        <filter x="-24.1%" y="-24.1%" width="148.2%" height="148.2%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="2.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.0445081617   0 0 0 0 0.510213781   0 0 0 0 0.863507699  0 0 0 0.226425918 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="一张图" transform="translate(-727.000000, -959.000000)">
+            <g id="编组-2" transform="translate(727.000000, 959.000000)">
+                <g id="编组-3">
+                    <g id="椭圆形">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <circle stroke="#A7E2FF" stroke-width="2" stroke-linejoin="square" fill-opacity="0.217001748" fill="#2798D0" fill-rule="evenodd" cx="37" cy="37" r="27"></circle>
+                    </g>
+                    <path d="M18.9549479,20.6443359 C17.3994815,22.5486518 16.2709427,23.5656119 14.9117188,26.6052734 C11.8051582,33.5525409 10.8962543,44.3966097 19.6371745,54.0565755 M37,61.508642 C44.5239768,61.508642 51.4470242,58.3033317 55.7889405,52.5209877 C57.6858973,49.9947167 59.5019095,46.7153132 60.3679012,43.5333333 M57.6716049,24.417284 C53.5250164,17.2990137 45.7432346,12.7333333 37,12.7333333" id="形状" stroke="#7ECDF3" stroke-width="4" fill-opacity="0.130326705" fill="#0D2859" stroke-linecap="square"></path>
+                    <g id="视频" transform="translate(25.800000, 23.933333)" fill="#E1F5FF" fill-rule="nonzero">
+                        <path d="M11.1995553,6.78257913 C10.6926069,6.78257913 10.2098823,6.87227462 9.76394463,7.03407963 C9.80342376,7.06134005 9.8384169,7.0921179 9.8716153,7.12289601 C10.4763665,7.69184778 10.3220379,8.76116073 9.52706833,9.50862436 C8.83348942,10.1611166 7.88150029,10.3536967 7.24983168,10.0160209 C7.22650303,10.1866185 7.21124955,10.3589739 7.21124955,10.5383649 C7.21124955,12.6110375 8.99678917,14.2932653 11.2031481,14.2932653 C13.4059115,14.2932653 15.1941319,12.6136699 15.1941319,10.5383649 C15.1914401,8.46305489 13.4032103,6.78346447 11.1995398,6.78346447 L11.1995553,6.78257913 Z M16.8881683,19.6169544 C20.1846813,17.7808324 22.4,14.4023062 22.4,10.5383512 C22.4,4.7178135 17.3852244,0 11.1995553,0 C5.01386078,0 0,4.7178135 0,10.5383512 C0,14.404946 2.21173583,17.7843439 5.51274646,19.6169544 L3.12604617,23.5081544 C2.72227987,24.1641631 3.22653887,24.9846154 4.02958244,24.9846154 L18.367724,24.9846154 C19.1707691,24.9846154 19.6750266,24.1641631 19.2712603,23.5081544 L16.887251,19.6169544 L16.8881683,19.6169544 Z M11.1995553,16.5919155 C7.64461687,16.5919155 4.76534543,13.8799448 4.76534543,10.5383512 C4.76534543,7.19234952 7.6473358,4.48389025 11.1995553,4.48389025 C14.7553831,4.48389025 17.63468,7.19586099 17.63468,10.5383512 C17.63468,13.8799448 14.7553831,16.5919155 11.1995553,16.5919155 Z" id="形状"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

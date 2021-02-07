@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="74px" height="74px" viewBox="0 0 74 74" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>扬尘噪音监控</title>
+    <defs>
+        <circle id="path-1" cx="37" cy="37" r="28"></circle>
+        <filter x="-24.1%" y="-24.1%" width="148.2%" height="148.2%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="2.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.0445081617   0 0 0 0 0.510213781   0 0 0 0 0.863507699  0 0 0 0.226425918 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="一张图" transform="translate(-1045.000000, -959.000000)">
+            <g id="编组-2备份-3" transform="translate(1040.000000, 959.000000)">
+                <g id="编组-13" transform="translate(5.000000, 0.000000)">
+                    <g id="椭圆形">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <circle stroke="#A7E2FF" stroke-width="2" stroke-linejoin="square" fill-opacity="0.217001748" fill="#2798D0" fill-rule="evenodd" cx="37" cy="37" r="27"></circle>
+                    </g>
+                    <path d="M18.9549479,20.6443359 C17.3994815,22.5486518 16.2709427,23.5656119 14.9117188,26.6052734 C11.8051582,33.5525409 10.8962543,44.3966097 19.6371745,54.0565755 M37,61.508642 C44.5239768,61.508642 51.4470242,58.3033317 55.7889405,52.5209877 C57.6858973,49.9947167 59.5019095,46.7153132 60.3679012,43.5333333 M57.6716049,24.417284 C53.5250164,17.2990137 45.7432346,12.7333333 37,12.7333333" id="形状" stroke="#7ECDF3" stroke-width="4" fill-opacity="0.130326705" fill="#0D2859" stroke-linecap="square"></path>
+                    <g id="噪音指数" transform="translate(25.000000, 26.000000)" fill="#E1F5FF" fill-rule="nonzero">
+                        <path d="M21.6986109,0.530421163 L23.4256129,2.25833984 L20.4006094,5.28334336 L23.4256129,8.30834688 L20.4006094,11.3333504 L23.4256129,14.3592706 L20.4006094,17.3842741 L23.4256129,20.4092776 L21.6976942,22.1371963 L16.944772,17.3824408 L19.9697756,14.3583539 L16.944772,11.3324337 L19.9697756,8.30743021 L16.944772,5.28242669 L21.6995276,0.529504495 L21.6986109,0.530421163 Z M13.7511017,1.23625532 C13.8372684,1.34075544 13.8886018,1.4755056 13.8895185,1.62217243 L13.8895185,21.0436117 L13.8895185,21.0437114 C13.8895185,21.3813889 13.6157777,21.6551288 13.2781011,21.6551288 C13.136262,21.6551288 12.9988351,21.6058146 12.8893567,21.5156323 L12.8902733,21.5165489 L6.42134913,16.2209595 L1.66667954,16.2219395 L1.66667948,16.2219395 C0.991831561,16.2219395 0.444761393,15.6748693 0.444761393,15.0000214 L0.444761393,7.66667954 C0.444761393,6.99201209 0.99201203,6.44476146 1.66667948,6.44476146 L6.41960168,6.44476146 L12.8903592,1.15008863 L12.8903592,1.15008863 C13.1493359,0.935768563 13.5330178,0.971969777 13.7473375,1.23094646 C13.7482934,1.23210149 13.749245,1.23326006 13.7501923,1.23442212 L13.751109,1.23533879 L13.7511017,1.23625532 Z" id="形状"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

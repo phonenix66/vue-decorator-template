@@ -1,5 +1,5 @@
 <template>
-    <div class="top-wrapper">
+    <div class="top-wrapper animate__animated animate__slideInDown">
         <div class="boxer left-one"></div>
         <div class="boxer left-two"></div>
         <div class="boxer center">宜昌两网智慧工地</div>
